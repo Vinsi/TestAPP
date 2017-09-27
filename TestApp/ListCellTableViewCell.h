@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListCellTableViewCell.h
 //  TestApp
 //
 //  Created by vinsi on 9/25/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ListCellTableViewCell : UITableViewCell
 
 @end
-

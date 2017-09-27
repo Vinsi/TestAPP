@@ -1,51 +1,77 @@
 //
 //  AppDelegate.m
-//  TestApp
+//  eFatoora
 //
-//  Created by vinsi on 9/25/17.
-//  Copyright © 2017 vinsi. All rights reserved.
+//  Created by UAE on 8/21/17.
+//  Copyright © 2017 UAE. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "Configurator.h"
 
+#import "ServicesDispatcher.h"
+#import "IQKeyboardService.h"
+#import "RootControllerService.h"
 @interface AppDelegate ()
-
+@property(nonatomic,strong) ServicesDispatcher *serviceDispatcher;
 @end
-
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+- (ServicesDispatcher *)serviceDispatcher {
+    if (!_serviceDispatcher) {
+        _serviceDispatcher = [[ServicesDispatcher alloc] initWithServices:@[
+                                                                   [IQKeyboardService new],
+                                                                   [RootControllerService new]
+                                                                            
+                                                                            ]];
+                                                                              
+    }
+    return _serviceDispatcher;
+    
 }
 
+
+#pragma mark UIApplicationDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    return [self.serviceDispatcher performBOOLSelector:@selector(application:didFinishLaunchingWithOptions:) sender:self withArguments:@[application, launchOptions ?: @{}]];
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    [self.serviceDispatcher performSelector:@selector(applicationWillResignActive:) sender:self withArguments:@[application]];
 }
-
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [self.serviceDispatcher performSelector:@selector(applicationDidEnterBackground:) sender:self withArguments:@[application]];
 }
-
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    [self.serviceDispatcher performSelector:@selector(applicationWillEnterForeground:) sender:self withArguments:@[application]];
 }
-
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [self.serviceDispatcher performSelector:@selector(applicationDidBecomeActive:) sender:self withArguments:@[application]];
 }
-
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [self.serviceDispatcher performSelector:@selector(applicationWillTerminate:) sender:self withArguments:@[application]];
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options {
+    return [self.serviceDispatcher performBOOLSelector:@selector(application:openURL:options:) sender:self withArguments:@[application, url, options]];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
+    return [self.serviceDispatcher performBOOLSelector:@selector(application:continueUserActivity:restorationHandler:) sender:self withArguments:@[application, userActivity, restorationHandler]];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [self.serviceDispatcher performBOOLSelector:@selector(application:openURL:sourceApplication:annotation:) sender:self withArguments:@[application, url, sourceApplication ?: @"", annotation ?: [NSNull null]]];
+}
+
 
 
 @end
