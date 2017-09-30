@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ARNAlert (0.2.2)
+  - CCActivityHUD (2.1.7)
+  - IQKeyboardManager (4.0.11)
+  - LinqToObjectiveC (2.1.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - ARNAlert
+  - CCActivityHUD
+  - IQKeyboardManager
+  - LinqToObjectiveC
+  - Mantle (~> 2.1)
+  - SDWebImage (~> 4.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ARNAlert: eeba16d51b5eaa0369e5e6d64fd0c6b1d6253164
+  CCActivityHUD: cfae116562e5279befbcf588de86490efe3f359b
+  IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
+  LinqToObjectiveC: f0e40c137a458b6b9725c4c7b6a575c0c72e3aec
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: 8cd7fb480a9583f3bc5fcb4814d2ddad345f7e65
+
+COCOAPODS: 1.2.1

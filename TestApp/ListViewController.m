@@ -8,9 +8,10 @@
 
 #import "ListViewController.h"
 #import "APIClient.h"
+#import "ItemModal.h"
 @interface ListViewController ()
 
-@property(nonatomic,strong) NSArray *items;
+@property(nonatomic,strong) NSArray<ItemModal*> *items;
 
 @end
 
@@ -18,12 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     __weak typeof (self) wkself =self;
     [[APIClient SharedClient] SearchAPPsinItunesWithName:@"trolley" onComplete:^(bool Success, ItemsResponseModal *response) {
+        
+        wkself.items = response.results;
+        [wkself.tblView reloadData];
         
         
         
     }];
-    self.title = @"List All";
+    
+    self.title = NSLocalizedString(@"apptitle", nil) ;
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -49,7 +55,9 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = @"";
+    ItemModal *item = self.items[indexPath.row];
+    cell.textLabel.text = item.artistName ;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }

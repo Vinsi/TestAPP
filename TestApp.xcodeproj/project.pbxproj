@@ -28,6 +28,20 @@
 		A98322C11F79538E005123FB /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98322BF1F79538E005123FB /* QRCodeViewController.m */; };
 		A98322C51F7971C7005123FB /* QRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98322C41F7971C6005123FB /* QRCodeViewController.xib */; };
 		A98322C71F79743B005123FB /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = A98322C61F79743B005123FB /* happy.png */; };
+		A9C48A0D1F7FB118007780F9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A0B1F7FB118007780F9 /* DetailViewController.m */; };
+		A9C48A0E1F7FB118007780F9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A0C1F7FB118007780F9 /* DetailViewController.xib */; };
+		A9C48A121F7FB95D007780F9 /* FaceBookService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A111F7FB95D007780F9 /* FaceBookService.m */; };
+		A9C48A151F7FBA3B007780F9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C48A131F7FBA3B007780F9 /* FBSDKCoreKit.framework */; };
+		A9C48A161F7FBA3B007780F9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C48A141F7FBA3B007780F9 /* FBSDKLoginKit.framework */; };
+		A9C48A1B1F7FBAA4007780F9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A191F7FBAA4007780F9 /* LoginViewController.m */; };
+		A9C48A1C1F7FBAA4007780F9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A1A1F7FBAA4007780F9 /* LoginViewController.xib */; };
+		A9C48A1E1F7FC381007780F9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C48A1D1F7FC381007780F9 /* Bolts.framework */; };
+		A9C48A2A1F7FE304007780F9 /* TestNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A291F7FE304007780F9 /* TestNavigationViewController.m */; };
+		A9C48A311F7FE825007780F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A331F7FE825007780F9 /* Localizable.strings */; };
+		A9C48A3F1F7FE985007780F9 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A3C1F7FE985007780F9 /* LanguageManager.m */; };
+		A9C48A401F7FE985007780F9 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A3E1F7FE985007780F9 /* NSBundle+Language.m */; };
+		A9C48A451F7FEA59007780F9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A431F7FEA59007780F9 /* SettingsViewController.m */; };
+		A9C48A471F7FEAE5007780F9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A491F7FEAE5007780F9 /* SettingsViewController.xib */; };
 		A9CD3DEA1F79090F00D3698C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CD3DE91F79090F00D3698C /* main.m */; };
 		A9CD3DF51F79090F00D3698C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CD3DF41F79090F00D3698C /* Assets.xcassets */; };
 		A9CD3DF81F79090F00D3698C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CD3DF61F79090F00D3698C /* LaunchScreen.storyboard */; };
@@ -95,6 +109,40 @@
 		A98322C01F79538E005123FB /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
 		A98322C41F7971C6005123FB /* QRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeViewController.xib; sourceTree = "<group>"; };
 		A98322C61F79743B005123FB /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		A9C48A0A1F7FB118007780F9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A9C48A0B1F7FB118007780F9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A9C48A0C1F7FB118007780F9 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A9C48A101F7FB95D007780F9 /* FaceBookService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookService.h; sourceTree = "<group>"; };
+		A9C48A111F7FB95D007780F9 /* FaceBookService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookService.m; sourceTree = "<group>"; };
+		A9C48A131F7FBA3B007780F9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A9C48A141F7FBA3B007780F9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A9C48A181F7FBAA4007780F9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A9C48A191F7FBAA4007780F9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A9C48A1A1F7FBAA4007780F9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A9C48A1D1F7FC381007780F9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A9C48A261F7FD8DD007780F9 /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		A9C48A281F7FE304007780F9 /* TestNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationViewController.h; sourceTree = "<group>"; };
+		A9C48A291F7FE304007780F9 /* TestNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavigationViewController.m; sourceTree = "<group>"; };
+		A9C48A2E1F7FE6CC007780F9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9C48A2F1F7FE6FC007780F9 /* ml-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ml-IN"; path = "ml-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A9C48A301F7FE717007780F9 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A9C48A321F7FE825007780F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9C48A341F7FE833007780F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9C48A351F7FE834007780F9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9C48A361F7FE835007780F9 /* ml-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ml-IN"; path = "ml-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9C48A371F7FE836007780F9 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9C48A3A1F7FE985007780F9 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		A9C48A3B1F7FE985007780F9 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		A9C48A3C1F7FE985007780F9 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		A9C48A3D1F7FE985007780F9 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		A9C48A3E1F7FE985007780F9 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		A9C48A421F7FEA59007780F9 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A9C48A431F7FEA59007780F9 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A9C48A481F7FEAE5007780F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
+		A9C48A4B1F7FEAF6007780F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SettingsViewController.strings; sourceTree = "<group>"; };
+		A9C48A4D1F7FEAF7007780F9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SettingsViewController.strings; sourceTree = "<group>"; };
+		A9C48A4F1F7FEAF8007780F9 /* ml-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ml-IN"; path = "ml-IN.lproj/SettingsViewController.strings"; sourceTree = "<group>"; };
+		A9C48A511F7FEAFC007780F9 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/SettingsViewController.strings"; sourceTree = "<group>"; };
 		A9CD3DE51F79090F00D3698C /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CD3DE91F79090F00D3698C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9CD3DEB1F79090F00D3698C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F565313B9F70F193EC04CBF4 /* libPods-TestApp.a in Frameworks */,
+				A9C48A151F7FBA3B007780F9 /* FBSDKCoreKit.framework in Frameworks */,
+				A9C48A161F7FBA3B007780F9 /* FBSDKLoginKit.framework in Frameworks */,
+				A9C48A1E1F7FC381007780F9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +195,9 @@
 		3DCE4E40206BBD95490DA5D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A1D1F7FC381007780F9 /* Bolts.framework */,
+				A9C48A131F7FBA3B007780F9 /* FBSDKCoreKit.framework */,
+				A9C48A141F7FBA3B007780F9 /* FBSDKLoginKit.framework */,
 				5B23DBB9339D7359AD31B43C /* libPods-TestApp.a */,
 				E576ADF44358A1AA75F1BAC8 /* libPods-TestAppTests.a */,
 				077FB45D0DD0C67AA184C628 /* libPods-TestAppUITests.a */,
@@ -180,6 +234,8 @@
 				A98322A61F792654005123FB /* IQKeyboardService.m */,
 				A98322B41F7928CB005123FB /* RootControllerService.h */,
 				A98322B51F7928CB005123FB /* RootControllerService.m */,
+				A9C48A101F7FB95D007780F9 /* FaceBookService.h */,
+				A9C48A111F7FB95D007780F9 /* FaceBookService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -187,6 +243,9 @@
 		A983228F1F7924FD005123FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A411F7FEA2F007780F9 /* Settings */,
+				A9C48A271F7FE2DC007780F9 /* Navigation */,
+				A9C48A171F7FBA81007780F9 /* Logins */,
 				A98322C31F795424005123FB /* Details */,
 				A98322C21F7953DA005123FB /* QR */,
 				A98322A21F79262D005123FB /* UtitlityInterfaces */,
@@ -268,8 +327,60 @@
 		A98322C31F795424005123FB /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A0A1F7FB118007780F9 /* DetailViewController.h */,
+				A9C48A0B1F7FB118007780F9 /* DetailViewController.m */,
+				A9C48A0C1F7FB118007780F9 /* DetailViewController.xib */,
 			);
 			name = Details;
+			sourceTree = "<group>";
+		};
+		A9C48A171F7FBA81007780F9 /* Logins */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A181F7FBAA4007780F9 /* LoginViewController.h */,
+				A9C48A191F7FBAA4007780F9 /* LoginViewController.m */,
+				A9C48A1A1F7FBAA4007780F9 /* LoginViewController.xib */,
+			);
+			name = Logins;
+			sourceTree = "<group>";
+		};
+		A9C48A271F7FE2DC007780F9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A281F7FE304007780F9 /* TestNavigationViewController.h */,
+				A9C48A291F7FE304007780F9 /* TestNavigationViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		A9C48A381F7FE96D007780F9 /* LanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A391F7FE985007780F9 /* ios_language_mgr */,
+			);
+			name = LanguageManager;
+			sourceTree = "<group>";
+		};
+		A9C48A391F7FE985007780F9 /* ios_language_mgr */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A3A1F7FE985007780F9 /* Defines.h */,
+				A9C48A3B1F7FE985007780F9 /* LanguageManager.h */,
+				A9C48A3C1F7FE985007780F9 /* LanguageManager.m */,
+				A9C48A3D1F7FE985007780F9 /* NSBundle+Language.h */,
+				A9C48A3E1F7FE985007780F9 /* NSBundle+Language.m */,
+			);
+			path = ios_language_mgr;
+			sourceTree = "<group>";
+		};
+		A9C48A411F7FEA2F007780F9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A421F7FEA59007780F9 /* SettingsViewController.h */,
+				A9C48A431F7FEA59007780F9 /* SettingsViewController.m */,
+				A9C48A491F7FEAE5007780F9 /* SettingsViewController.xib */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 		A9CD3DDC1F79090E00D3698C = {
@@ -297,16 +408,19 @@
 		A9CD3DE71F79090F00D3698C /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A261F7FD8DD007780F9 /* TestApp.entitlements */,
 				A98322B81F794BC9005123FB /* Resource */,
 				A983229F1F7925DD005123FB /* Wrappers */,
 				A98322901F79250B005123FB /* ApiClient */,
 				A983228F1F7924FD005123FB /* ViewControllers */,
 				A983228E1F7924E8005123FB /* Services */,
+				A9C48A381F7FE96D007780F9 /* LanguageManager */,
 				A983228D1F7924D9005123FB /* Configurator */,
 				A9CD3DEB1F79090F00D3698C /* AppDelegate.h */,
 				A98322A01F792608005123FB /* AppDelegate.m */,
 				A9CD3DF41F79090F00D3698C /* Assets.xcassets */,
 				A9CD3DF61F79090F00D3698C /* LaunchScreen.storyboard */,
+				A9C48A331F7FE825007780F9 /* Localizable.strings */,
 				A9CD3DF91F79090F00D3698C /* Info.plist */,
 				A9CD3DE81F79090F00D3698C /* Supporting Files */,
 			);
@@ -415,8 +529,13 @@
 				TargetAttributes = {
 					A9CD3DE41F79090F00D3698C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = T47326VQCW;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = SND8Y8H4KF;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					A9CD3DFD1F79090F00D3698C = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -439,6 +558,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				"ml-IN",
+				"hi-IN",
 			);
 			mainGroup = A9CD3DDC1F79090E00D3698C;
 			productRefGroup = A9CD3DE61F79090F00D3698C /* Products */;
@@ -457,13 +579,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C48A471F7FEAE5007780F9 /* SettingsViewController.xib in Resources */,
 				A9CD3DF81F79090F00D3698C /* LaunchScreen.storyboard in Resources */,
+				A9C48A311F7FE825007780F9 /* Localizable.strings in Resources */,
 				A983229A1F792576005123FB /* ListCellTableViewCell.xib in Resources */,
+				A9C48A1C1F7FBAA4007780F9 /* LoginViewController.xib in Resources */,
 				A98322BC1F794BE2005123FB /* right-arrow@1x.png in Resources */,
 				A98322BD1F794BE2005123FB /* right-arrow@2x.png in Resources */,
 				A9CD3DF51F79090F00D3698C /* Assets.xcassets in Resources */,
 				A98322951F792557005123FB /* ListViewController.xib in Resources */,
 				A98322C51F7971C7005123FB /* QRCodeViewController.xib in Resources */,
+				A9C48A0E1F7FB118007780F9 /* DetailViewController.xib in Resources */,
 				A98322BE1F794BE2005123FB /* right-arrow@3x.png in Resources */,
 				A98322C71F79743B005123FB /* happy.png in Resources */,
 			);
@@ -633,7 +759,11 @@
 				A98322991F792576005123FB /* ListCellTableViewCell.m in Sources */,
 				A98322C11F79538E005123FB /* QRCodeViewController.m in Sources */,
 				A98322AD1F7927E0005123FB /* Activity.m in Sources */,
+				A9C48A0D1F7FB118007780F9 /* DetailViewController.m in Sources */,
+				A9C48A451F7FEA59007780F9 /* SettingsViewController.m in Sources */,
 				A98322B01F792800005123FB /* Configurator.m in Sources */,
+				A9C48A1B1F7FBAA4007780F9 /* LoginViewController.m in Sources */,
+				A9C48A121F7FB95D007780F9 /* FaceBookService.m in Sources */,
 				A9CD3DEA1F79090F00D3698C /* main.m in Sources */,
 				A98322B31F79285A005123FB /* APIClient.m in Sources */,
 				A98322AA1F7927BA005123FB /* Message.m in Sources */,
@@ -641,7 +771,10 @@
 				A98322941F792557005123FB /* ListViewController.m in Sources */,
 				A98322A11F792608005123FB /* AppDelegate.m in Sources */,
 				A98322B61F7928CB005123FB /* RootControllerService.m in Sources */,
+				A9C48A401F7FE985007780F9 /* NSBundle+Language.m in Sources */,
+				A9C48A2A1F7FE304007780F9 /* TestNavigationViewController.m in Sources */,
 				A93488321F7BF128006D4467 /* ItemsResponseModal.m in Sources */,
+				A9C48A3F1F7FE985007780F9 /* LanguageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,10 +810,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A9C48A331F7FE825007780F9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C48A321F7FE825007780F9 /* Base */,
+				A9C48A341F7FE833007780F9 /* en */,
+				A9C48A351F7FE834007780F9 /* ar */,
+				A9C48A361F7FE835007780F9 /* ml-IN */,
+				A9C48A371F7FE836007780F9 /* hi-IN */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A9C48A491F7FEAE5007780F9 /* SettingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C48A481F7FEAE5007780F9 /* Base */,
+				A9C48A4B1F7FEAF6007780F9 /* en */,
+				A9C48A4D1F7FEAF7007780F9 /* ar */,
+				A9C48A4F1F7FEAF8007780F9 /* ml-IN */,
+				A9C48A511F7FEAFC007780F9 /* hi-IN */,
+			);
+			name = SettingsViewController.xib;
+			sourceTree = "<group>";
+		};
 		A9CD3DF61F79090F00D3698C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A9CD3DF71F79090F00D3698C /* Base */,
+				A9C48A2E1F7FE6CC007780F9 /* ar */,
+				A9C48A2F1F7FE6FC007780F9 /* ml-IN */,
+				A9C48A301F7FE717007780F9 /* hi-IN */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -692,6 +853,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -740,6 +902,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -783,11 +946,19 @@
 			baseConfigurationReference = E7CC69A99506B4F2A30204B7 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T47326VQCW;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				DEVELOPMENT_TEAM = SND8Y8H4KF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinsi.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27d061d5-b34c-4fbc-8dad-b367f6f73366";
+				PROVISIONING_PROFILE_SPECIFIER = Test_app_Development;
 			};
 			name = Debug;
 		};
@@ -796,11 +967,18 @@
 			baseConfigurationReference = CAF4568758C97FDA44ECC794 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T47326VQCW;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinsi.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

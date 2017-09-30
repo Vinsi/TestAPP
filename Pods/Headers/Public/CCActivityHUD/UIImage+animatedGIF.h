@@ -1,0 +1,1 @@
+../../../CCActivityHUD/CCActivityHUD/UIImage+animatedGIF.h

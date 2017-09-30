@@ -12,6 +12,7 @@
 #import "ServicesDispatcher.h"
 #import "IQKeyboardService.h"
 #import "RootControllerService.h"
+#import "FaceBookService.h"
 @interface AppDelegate ()
 @property(nonatomic,strong) ServicesDispatcher *serviceDispatcher;
 @end
@@ -22,8 +23,8 @@
     if (!_serviceDispatcher) {
         _serviceDispatcher = [[ServicesDispatcher alloc] initWithServices:@[
                                                                    [IQKeyboardService new],
-                                                                   [RootControllerService new]
-                                                                            
+                                                                   [RootControllerService new],
+                                                                    [FaceBookService new]
                                                                             ]];
                                                                               
     }
