@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SettingsViewController : UIViewController
+#import "INextNavigating.h"
+@interface SettingsViewController : UIViewController<INextNavigating>
 
 @end

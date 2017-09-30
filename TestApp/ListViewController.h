@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "ListCellTableViewCell.h"
+#import "INextNavigating.h"
+
+typedef void(^blkOnComplete)(bool success,NSArray *records );
+typedef void(^blkTask)(blkOnComplete callback) ;
+typedef UITableViewCell* (blkCreateCell)(UITableViewCell*cell,NSIndexPath *indexpath);
+
+
+
 @interface ListViewController : UIViewController
+@property(nonatomic,copy) blkTask taskCallback;
 
 @property(nonatomic,weak) IBOutlet UITableView *tblView;
+@property(nonatomic,strong) id<INextNavigating>navDelegate;
+
+
 @end

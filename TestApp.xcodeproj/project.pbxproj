@@ -42,6 +42,12 @@
 		A9C48A401F7FE985007780F9 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A3E1F7FE985007780F9 /* NSBundle+Language.m */; };
 		A9C48A451F7FEA59007780F9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A431F7FEA59007780F9 /* SettingsViewController.m */; };
 		A9C48A471F7FEAE5007780F9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A491F7FEAE5007780F9 /* SettingsViewController.xib */; };
+		A9C48A541F7FF2ED007780F9 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A531F7FF2ED007780F9 /* UIView+IBDesignable.m */; };
+		A9C48A571F7FF33D007780F9 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A561F7FF33D007780F9 /* UIImage+Tint.m */; };
+		A9C48A5C1F7FFA06007780F9 /* UIColor+HTMLColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C48A5B1F7FFA06007780F9 /* UIColor+HTMLColors.m */; };
+		A9C48A601F7FFBC1007780F9 /* settings@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A5D1F7FFBC1007780F9 /* settings@1x.png */; };
+		A9C48A611F7FFBC1007780F9 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A5E1F7FFBC1007780F9 /* settings@2x.png */; };
+		A9C48A621F7FFBC1007780F9 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A5F1F7FFBC1007780F9 /* settings@3x.png */; };
 		A9CD3DEA1F79090F00D3698C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CD3DE91F79090F00D3698C /* main.m */; };
 		A9CD3DF51F79090F00D3698C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CD3DF41F79090F00D3698C /* Assets.xcassets */; };
 		A9CD3DF81F79090F00D3698C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CD3DF61F79090F00D3698C /* LaunchScreen.storyboard */; };
@@ -143,6 +149,16 @@
 		A9C48A4D1F7FEAF7007780F9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SettingsViewController.strings; sourceTree = "<group>"; };
 		A9C48A4F1F7FEAF8007780F9 /* ml-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ml-IN"; path = "ml-IN.lproj/SettingsViewController.strings"; sourceTree = "<group>"; };
 		A9C48A511F7FEAFC007780F9 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/SettingsViewController.strings"; sourceTree = "<group>"; };
+		A9C48A521F7FF2ED007780F9 /* UIView+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBDesignable.h"; sourceTree = "<group>"; };
+		A9C48A531F7FF2ED007780F9 /* UIView+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBDesignable.m"; sourceTree = "<group>"; };
+		A9C48A551F7FF33D007780F9 /* UIImager+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImager+Tint.h"; sourceTree = "<group>"; };
+		A9C48A561F7FF33D007780F9 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		A9C48A591F7FF83C007780F9 /* INextNavigating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INextNavigating.h; sourceTree = "<group>"; };
+		A9C48A5A1F7FFA06007780F9 /* UIColor+HTMLColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HTMLColors.h"; sourceTree = "<group>"; };
+		A9C48A5B1F7FFA06007780F9 /* UIColor+HTMLColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HTMLColors.m"; sourceTree = "<group>"; };
+		A9C48A5D1F7FFBC1007780F9 /* settings@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@1x.png"; sourceTree = "<group>"; };
+		A9C48A5E1F7FFBC1007780F9 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		A9C48A5F1F7FFBC1007780F9 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@3x.png"; sourceTree = "<group>"; };
 		A9CD3DE51F79090F00D3698C /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CD3DE91F79090F00D3698C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9CD3DEB1F79090F00D3698C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -293,6 +309,7 @@
 		A98322A21F79262D005123FB /* UtitlityInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A591F7FF83C007780F9 /* INextNavigating.h */,
 				A98322A31F79264A005123FB /* IActivity.h */,
 				A98322A41F79264A005123FB /* IAlert.h */,
 				A98322A81F7927BA005123FB /* Message.h */,
@@ -309,6 +326,9 @@
 				A98322B91F794BE2005123FB /* right-arrow@1x.png */,
 				A98322BA1F794BE2005123FB /* right-arrow@2x.png */,
 				A98322BB1F794BE2005123FB /* right-arrow@3x.png */,
+				A9C48A5D1F7FFBC1007780F9 /* settings@1x.png */,
+				A9C48A5E1F7FFBC1007780F9 /* settings@2x.png */,
+				A9C48A5F1F7FFBC1007780F9 /* settings@3x.png */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -383,6 +403,19 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
+		A9C48A581F7FF347007780F9 /* HelperExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9C48A5A1F7FFA06007780F9 /* UIColor+HTMLColors.h */,
+				A9C48A5B1F7FFA06007780F9 /* UIColor+HTMLColors.m */,
+				A9C48A551F7FF33D007780F9 /* UIImager+Tint.h */,
+				A9C48A561F7FF33D007780F9 /* UIImage+Tint.m */,
+				A9C48A521F7FF2ED007780F9 /* UIView+IBDesignable.h */,
+				A9C48A531F7FF2ED007780F9 /* UIView+IBDesignable.m */,
+			);
+			name = HelperExtensions;
+			sourceTree = "<group>";
+		};
 		A9CD3DDC1F79090E00D3698C = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +441,7 @@
 		A9CD3DE71F79090F00D3698C /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9C48A581F7FF347007780F9 /* HelperExtensions */,
 				A9C48A261F7FD8DD007780F9 /* TestApp.entitlements */,
 				A98322B81F794BC9005123FB /* Resource */,
 				A983229F1F7925DD005123FB /* Wrappers */,
@@ -589,8 +623,11 @@
 				A9CD3DF51F79090F00D3698C /* Assets.xcassets in Resources */,
 				A98322951F792557005123FB /* ListViewController.xib in Resources */,
 				A98322C51F7971C7005123FB /* QRCodeViewController.xib in Resources */,
+				A9C48A611F7FFBC1007780F9 /* settings@2x.png in Resources */,
+				A9C48A601F7FFBC1007780F9 /* settings@1x.png in Resources */,
 				A9C48A0E1F7FB118007780F9 /* DetailViewController.xib in Resources */,
 				A98322BE1F794BE2005123FB /* right-arrow@3x.png in Resources */,
+				A9C48A621F7FFBC1007780F9 /* settings@3x.png in Resources */,
 				A98322C71F79743B005123FB /* happy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,6 +791,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C48A571F7FF33D007780F9 /* UIImage+Tint.m in Sources */,
 				A98322A71F792654005123FB /* IQKeyboardService.m in Sources */,
 				A93488351F7BF317006D4467 /* ItemModal.m in Sources */,
 				A98322991F792576005123FB /* ListCellTableViewCell.m in Sources */,
@@ -763,6 +801,7 @@
 				A9C48A451F7FEA59007780F9 /* SettingsViewController.m in Sources */,
 				A98322B01F792800005123FB /* Configurator.m in Sources */,
 				A9C48A1B1F7FBAA4007780F9 /* LoginViewController.m in Sources */,
+				A9C48A541F7FF2ED007780F9 /* UIView+IBDesignable.m in Sources */,
 				A9C48A121F7FB95D007780F9 /* FaceBookService.m in Sources */,
 				A9CD3DEA1F79090F00D3698C /* main.m in Sources */,
 				A98322B31F79285A005123FB /* APIClient.m in Sources */,
@@ -774,6 +813,7 @@
 				A9C48A401F7FE985007780F9 /* NSBundle+Language.m in Sources */,
 				A9C48A2A1F7FE304007780F9 /* TestNavigationViewController.m in Sources */,
 				A93488321F7BF128006D4467 /* ItemsResponseModal.m in Sources */,
+				A9C48A5C1F7FFA06007780F9 /* UIColor+HTMLColors.m in Sources */,
 				A9C48A3F1F7FE985007780F9 /* LanguageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

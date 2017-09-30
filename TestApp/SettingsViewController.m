@@ -20,6 +20,8 @@
     [super viewDidLoad];
     self.items = [LanguageManager languageStrings];
     self.pkrLanguage =[[ UIPickerView alloc]init];
+    self.pkrLanguage.delegate =self;
+    self.pkrLanguage.dataSource =self;
     [self.pkrLanguage reloadInputViews];
     self.txtLanguage.inputView =self.pkrLanguage;
     // Do any additional setup after loading the view from its nib.
@@ -49,6 +51,13 @@
 
     return 1;
 }
+#pragma mark INextNavigating
+-(void)ShowNextWithNavigationController:(UINavigationController *)nvc withData:(id)data{
+
+    [nvc pushViewController:self animated:YES];
+
+}
+
 /*
 #pragma mark - Navigation
 

@@ -20,18 +20,17 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ica-jC-SPi">
-                    <rect key="frame" x="8" y="76" width="212" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ica-jC-SPi">
+                    <rect key="frame" x="8" y="76" width="359" height="24"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="212" id="gig-fC-idS"/>
-                        <constraint firstAttribute="height" constant="21" id="tbe-jS-rbh"/>
+                        <constraint firstAttribute="height" constant="24" id="tbe-jS-rbh"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="99o-p8-wO7">
-                    <rect key="frame" x="8" y="105" width="359" height="50"/>
+                    <rect key="frame" x="8" y="108" width="359" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="uhp-iH-9bQ"/>
                     </constraints>
@@ -39,14 +38,34 @@
                     <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTN-Gg-2O3">
+                    <rect key="frame" x="8" y="182" width="359" height="50"/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="aFc-WV-oTk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="99o-p8-wO7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Q5f-89-KpD"/>
+                <constraint firstItem="gTN-Gg-2O3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="WAK-xn-dzV"/>
                 <constraint firstItem="Ica-jC-SPi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="en2-AL-TBc"/>
+                <constraint firstAttribute="trailing" secondItem="gTN-Gg-2O3" secondAttribute="trailing" constant="8" id="fR4-B2-K6o"/>
                 <constraint firstItem="Ica-jC-SPi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="76" id="gbe-fM-RYu"/>
+                <constraint firstItem="gTN-Gg-2O3" firstAttribute="top" secondItem="99o-p8-wO7" secondAttribute="bottom" constant="24" id="j6o-5Z-H2t"/>
                 <constraint firstAttribute="trailing" secondItem="99o-p8-wO7" secondAttribute="trailing" constant="8" id="pyJ-1d-30b"/>
                 <constraint firstItem="99o-p8-wO7" firstAttribute="top" secondItem="Ica-jC-SPi" secondAttribute="bottom" constant="8" id="uYM-YB-IlS"/>
+                <constraint firstAttribute="trailing" secondItem="Ica-jC-SPi" secondAttribute="trailing" constant="8" id="zCA-dY-7Sv"/>
             </constraints>
             <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>

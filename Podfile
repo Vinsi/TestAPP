@@ -8,13 +8,13 @@ target 'TestApp' do
   # Pods for TestApp
 
 
-pod "ARNAlert"
+pod 'ARNAlert'
 pod 'AFNetworking', '~> 3.0'
 pod 'CCActivityHUD'
 pod 'IQKeyboardManager'
 pod 'Mantle', '~> 2.1’
 pod 'SDWebImage', '~> 4.0'
-pod ‘LinqToObjectiveC’
+pod 'LinqToObjectiveC'
   target 'TestAppTests' do
     inherit! :search_paths
     # Pods for testing

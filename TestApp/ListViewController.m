@@ -11,23 +11,46 @@
 #import "ItemModal.h"
 @interface ListViewController ()
 
-@property(nonatomic,strong) NSArray<ItemModal*> *items;
+@property(nonatomic,strong) NSArray<MTLModel*> *items;
 
 @end
 
 @implementation ListViewController
+-(IBAction)btnNavRightTapped:(id)sender{
+
+    [self.navDelegate ShowNextWithNavigationController:self.navigationController];
+
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"settings"] style:UIBarButtonItemStylePlain target:self action:@selector(btnNavRightTapped:)];
      __weak typeof (self) wkself =self;
-    [[APIClient SharedClient] SearchAPPsinItunesWithName:@"trolley" onComplete:^(bool Success, ItemsResponseModal *response) {
+    self.taskCallback(^(bool success, NSArray *records) {
         
-        wkself.items = response.results;
+        
+        if(!success){
+            return ;
+        
+        }
+        wkself.items = records;
         [wkself.tblView reloadData];
         
         
-        
-    }];
+    });
+    
+//     __weak typeof (self) wkself =self;
+//    [[APIClient SharedClient] SearchAPPsinItunesWithName:@"trolley" onComplete:^(bool Success, ItemsResponseModal *response) {
+//        
+//        wkself.items = response.results;
+//        [wkself.tblView reloadData];
+//        
+//        
+//        
+//    }];
     
     self.title = NSLocalizedString(@"apptitle", nil) ;
     // Do any additional setup after loading the view from its nib.
@@ -65,4 +88,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 }
+
+
 @end
